@@ -20,8 +20,8 @@ from dotenv import load_dotenv
 # ─── LOAD CREDENTIALS ───────────────────────────────────────────────────────
 load_dotenv()
 
-TELEGRAM_TOKEN   = os.getenv("TELEGRAM_TOKEN", "8851798524:AAGZTUnVeDJARKsH5CsETgBuXgwnTwF4u1g")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "-5016015118")
+TELEGRAM_TOKEN   = os.getenv("TELEGRAM_TOKEN", "your_token_id")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "your_chat_id")
 
 if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
     sys.exit("FATAL: Missing TELEGRAM_TOKEN or TELEGRAM_CHAT_ID.")
