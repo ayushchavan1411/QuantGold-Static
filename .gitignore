@@ -69,6 +69,9 @@ share/python-wheels/
 logs/
 data/
 historical_data/
+
+# Keep shareable summary; ignore bulky per-run trade dumps
+backtest_results/v26_2_results_*.json
 .vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
